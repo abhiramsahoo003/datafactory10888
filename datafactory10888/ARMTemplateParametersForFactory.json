@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactory10888"
+		},
+		"datalake1089LinkedService_accountKey": {
+			"value": ""
+		},
+		"dataworkspace108LinkedService_password": {
+			"value": ""
+		},
+		"datalake1089LinkedService_properties_typeProperties_url": {
+			"value": "https://datalake1089.dfs.core.windows.net/"
+		},
+		"dataworkspace108LinkedService_properties_typeProperties_server": {
+			"value": "dataworkspace108.sql.azuresynapse.net"
+		},
+		"dataworkspace108LinkedService_properties_typeProperties_database": {
+			"value": "datapool"
+		},
+		"dataworkspace108LinkedService_properties_typeProperties_userName": {
+			"value": "sqladminuser"
+		}
+	}
+}
